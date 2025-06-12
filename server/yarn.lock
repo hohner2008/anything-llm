@@ -2531,7 +2531,7 @@ aws-ssl-profiles@^1.1.1:
   resolved "https://registry.yarnpkg.com/aws-ssl-profiles/-/aws-ssl-profiles-1.1.1.tgz#21ef8ad77d753927f6c01b144c5ef4cc4f150cdc"
   integrity sha512-+H+kuK34PfMaI9PNU/NSjBKL5hh/KDM9J72kwYeYEm0A8B1AC4fuCy3qsjnA7lxklgyXsB68yn8Z2xoZEjgwCQ==
 
-axios@^1.4.0, axios@^1.6.2, axios@^1.6.5:
+axios@^1.4.0, axios@^1.6.5:
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
   integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
@@ -6015,13 +6015,10 @@ postgres-interval@^1.1.0:
   dependencies:
     xtend "^4.0.0"
 
-posthog-node@^3.1.1:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/posthog-node/-/posthog-node-3.6.3.tgz#4d3a2a4385e01c4d9e91d01dbde104e60285853d"
-  integrity sha512-JB+ei0LkwE+rKHyW5z79Nd1jUaGxU6TvkfjFqY9vQaHxU5aU8dRl0UUaEmZdZbHwjp3WmXCBQQRNyimwbNQfCw==
-  dependencies:
-    axios "^1.6.2"
-    rusha "^0.8.14"
+posthog-node@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/posthog-node/-/posthog-node-5.0.0.tgz#8475eb0dd9fb1892f10186ce7d4a6d74441f98d3"
+  integrity sha512-gontigBt1pGHGXZme3+ojDdCYL66h/vvo+6KaQ6A51xqUOYgRvyzCLkS9Xv816jNBesRO8ouRjG428SDb2fFkg==
 
 prebuild-install@^7.1.1:
   version "7.1.2"
@@ -6344,11 +6341,6 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
-
-rusha@^0.8.14:
-  version "0.8.14"
-  resolved "https://registry.yarnpkg.com/rusha/-/rusha-0.8.14.tgz#a977d0de9428406138b7bb90d3de5dcd024e2f68"
-  integrity sha512-cLgakCUf6PedEu15t8kbsjnwIFFR2D4RfL+W3iWFJ4iac7z4B0ZI8fxy4R3J956kAI68HclCFGL8MPoUVC3qVA==
 
 safe-array-concat@^1.1.2:
   version "1.1.2"
